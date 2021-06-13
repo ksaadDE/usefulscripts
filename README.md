@@ -1,5 +1,6 @@
 # usefullshellscripts
-usefulshellscripts
+This Repo contains funny Bash Scripts. I write them all the time to make my daily tasks very easy. 
+Sometimes I need them once but that doesn't mean you shouldn't see them ;)
 
 ### Github Repo 
 Download all your repos from Github, while maintaining the original datetimes (upload, edit etc) 
