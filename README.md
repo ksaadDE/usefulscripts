@@ -21,6 +21,6 @@ Uses docker-compose to setup a Env for the Mondial Database (if you're studying 
 It makes a lot of fun to write such shell scripts and even docker-compose :-)
 
 ### GetIP
-The fast way to find your external IP. (Needs inet connection)
+The fast way to find out your external IP. (Needs inet connection)
 I wrote it just 4 fun and maybe for future use in hacking labs
 But mostly it wont work there, because the most vuln machines in the Labs don't have open inet connectivity due to obvious reasons :-D
