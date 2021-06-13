@@ -3,7 +3,7 @@ This Repo contains funny Bash Scripts. I write them all the time to make my dail
 
 Despite I use some scripts only once, you may have a good day when you can use a out of the box solution ;)
 
-### Github Repo 
+### Github Repo Downloader
 Download all your repos from Github, while maintaining the original datetimes (upload, edit etc).
 
 Becaerful: It places them inside a json in your repo root, with a side note in README.md. 
