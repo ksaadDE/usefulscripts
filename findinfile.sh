@@ -1,5 +1,5 @@
 #!/bin/bash
-# Written by kiloDE // 06/06/2021
+# Written by ksaadDE // 06/06/2021
 # Level 1 search for string in files (in the current Dir)
 # Returns the Filename which contains the string
 # HINT: you can move it to /bin/ to have it globally available, but please consider the right file permissions!
