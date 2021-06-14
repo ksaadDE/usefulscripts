@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Written by kiloDE (29 May 2021)
+# Written by ksaadDE (29 May 2021)
 #
 # Mondial Database Install Script 
 
