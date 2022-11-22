@@ -4,3 +4,6 @@
 #### Flatten PDFs
 - `convert -density 300 "in.pdf" "out.pdf"`
 - `convert -density 120x120 -quality 20 -compress jpeg <in> <out>`
+
+#### Docx -> PDF
+- `soffice --headless --convert-to pdf docx/* pdf/`
