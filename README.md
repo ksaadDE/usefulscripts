@@ -24,3 +24,6 @@ It makes a lot of fun to write such shell scripts and even docker-compose :-)
 The fast way to find out your external IP. (Needs inet connection)
 I wrote it just 4 fun and maybe for future use in hacking labs
 But mostly it wont work there, because the most vuln machines in the Labs don't have open inet connectivity due to obvious reasons :-D
+
+### FileListing_Comapre
+Two directories A and B. Changed files in both directories. To compare a filelist of A with the current directory B. The script goes over the filelist and uses bash's -f checks see if the file **exists**. There is **NO hash comparison** to check if both files are identical.
