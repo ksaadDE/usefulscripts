@@ -15,7 +15,7 @@ foundsomething=""
 
 # loop through the filepath+name lines in difffiles.txt ($1)
 while IFS= read -r -u3 line; do
-	if [ ! -f "$line" ]; then
+	if [ ! -f "$line" ] && [ ! -d "$line" ]; then
 		echo "[+] file '$line' missing";
 		foundsomething="1"
 	fi
