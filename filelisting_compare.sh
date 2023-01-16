@@ -22,6 +22,6 @@ while IFS= read -r -u3 line; do
 done 3< "$1"
 
 # positive message - if no differences found
-if [ ! -z "$foundsomething" ]; then
+if [ -z "$foundsomething" ]; then
 	echo "[+] No files missing, seemingly";
 fi
