@@ -29,4 +29,4 @@ But mostly it wont work there, because the most vuln machines in the Labs don't 
 Two directories A and B. Changed files in both directories. To compare a filelist of A with the current directory B. The script goes over the filelist and uses bash's -f checks see if the *file or directory* **exists**. There is **NO hash comparison** to check if both files are identical.
 
 ### Wekan Snap Writeup
-- (wekan_sap_writeup.md)[wekan_sap_writeup.md]
+- [wekan_sap_writeup.md](wekan_sap_writeup.md)
