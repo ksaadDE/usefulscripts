@@ -30,3 +30,7 @@ Two directories A and B. Changed files in both directories. To compare a filelis
 
 ### Wekan Snap Writeup
 - [wekan_snap_writeup.md](wekan_snap_writeup.md)
+
+### CleanLogs.py
+- Truncats the log files in `/var/log`, `/var/lib/docker/containers` and `/tmp`
+- Returns a metric message
