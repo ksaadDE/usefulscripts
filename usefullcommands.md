@@ -28,3 +28,16 @@ journalctl --vacuum-size=50M
 `find / -xdev -type f -size +100M`
 
 [taken from maketecheasier.com](https://www.maketecheasier.com/find-large-files-linux)
+
+### remove old snaps
+```
+#!/bin/bash
+# Removes old revisions of snaps
+# CLOSE ALL SNAPS BEFORE RUNNING THIS
+set -eu
+
+LANG=en_US.UTF-8 snap list --all | awk '/disabled/{print $1, $3}' |
+    while read snapname revision; do
+        snap remove "$snapname" --revision="$revision"
+    done
+```
