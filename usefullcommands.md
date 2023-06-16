@@ -26,7 +26,5 @@ journalctl --vacuum-size=50M
 
 ### find large files
 `find / -xdev -type f -size +100M`
-taken from: https://www.maketecheasier.com/find-large-files-linux
 
-*clean*
-``
+[taken from maketecheasier.com](https://www.maketecheasier.com/find-large-files-linux)
