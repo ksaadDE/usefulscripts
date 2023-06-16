@@ -17,7 +17,6 @@ pacman -Qdt
 pacman -Rns $(pacman -Qtdq)
 journalctl --vacuum-size=50M
 ```
-partially taken from 
 
 ### if apt and jctl
 ```
