@@ -4,6 +4,7 @@
 ## Flatten PDFs
 - `convert -density 300 "in.pdf" "out.pdf"`
 - `convert -density 120x120 -quality 20 -compress jpeg <in> <out>`
+- `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf`
 
 ## Docx -> PDF
 - `soffice --headless --convert-to pdf docx/* pdf/`
