@@ -3,6 +3,9 @@
 exiftool -ALL= /path/to/input.mp4
 ffmpeg -i /path/to/input.mp4 -map 0 -map_metadata -1 -c copy /path/to/export.mp4
 ```
+## split mp4 in kb defined parts
+`mp4box -splits 2000000 filename.mp4`
+e.g. ~2 GB parts
 
 ## exports git commit list (all) into a csv format
 - `git log --pretty=format:'"%h","%an","%ad","%s"' --date-order --date=format:'%d.%m.%Y %H:%M:%S' > allCommits.csv`
