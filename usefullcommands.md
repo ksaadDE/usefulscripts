@@ -53,3 +53,12 @@ LANG=en_US.UTF-8 snap list --all | awk '/disabled/{print $1, $3}' |
 ```
 
 [taken from linuxuprising.com](https://www.linuxuprising.com/2019/04/how-to-remove-old-snap-versions-to-free.html)
+
+
+## GIT Commands
+### Show Last modified files (only names)
+`git show --pretty="" --name-only`
+### Show Last modified files (names + content)
+`git show`
+### Show git history
+`git log`
