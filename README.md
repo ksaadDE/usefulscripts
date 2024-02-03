@@ -1,7 +1,5 @@
 # Useful Scripts & Notes
-This Repo contains funny scripts. I write them all the time to make my daily tasks very easy and to take some notes.
-
-Despite I use some scripts only once, you may have a good day when you can use a out of the box solution ;)
+This repository contains some funny scripts. I write them all the time, they make my daily tasks very easy. Further I am taking some notes on things that I came across. Despite I use some scripts only once, you may have a good day when you can use a out of the box solution ;)
 
 ### Github Repo Downloader
 Download all your repos from Github, while maintaining the original datetimes (upload, edit etc).
@@ -29,6 +27,7 @@ But mostly it wont work there, because the most vuln machines in the Labs don't 
 Two directories A and B. Changed files in both directories. To compare a filelist of A with the current directory B. The script goes over the filelist and uses bash's -f checks see if the *file or directory* **exists**. There is **NO hash comparison** to check if both files are identical.
 
 ### Wekan Snap Writeup
+I just came across interesting claims in the issues Tab of Wekan Snap and tried to fix the TLS config, showing people how it works. 
 - [wekan_snap_writeup.md](wekan_snap_writeup.md)
 
 ### CleanLogs.py
@@ -36,4 +35,5 @@ Two directories A and B. Changed files in both directories. To compare a filelis
 - Returns a metric message
 
 ### Adding Abbreviation Detector for SpacyNLP from SciSpacy
+During some NLP information extraction I wanted to get rid of the abbreviations. I came across Scispacy but the installation fails.. https://github.com/allenai/scispacy/issues/504 - Surrender? Nah, no problem for me, I just had to rip that Abbreviation piece out and use it in my project.
 - [adding_abbreviation_detection_to_your_spacy_nlp_project.md](adding_abbreviation_detection_to_your_spacy_nlp_project.md)
