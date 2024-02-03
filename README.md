@@ -1,5 +1,5 @@
-# usefullshellscripts
-This Repo contains funny Bash Scripts. I write them all the time to make my daily tasks very easy. 
+# Useful Scripts & Notes
+This Repo contains funny scripts. I write them all the time to make my daily tasks very easy and to take some notes.
 
 Despite I use some scripts only once, you may have a good day when you can use a out of the box solution ;)
 
@@ -34,3 +34,6 @@ Two directories A and B. Changed files in both directories. To compare a filelis
 ### CleanLogs.py
 - Truncats the log files in `/var/log`, `/var/lib/docker/containers` and `/tmp`
 - Returns a metric message
+
+### Adding Abbreviation Detector for SpacyNLP from SciSpacy
+- [adding_abbreviation_detection_to_your_spacy_nlp_project.md](adding_abbreviation_detection_to_your_spacy_nlp_project.md)
