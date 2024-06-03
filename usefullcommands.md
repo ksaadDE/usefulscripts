@@ -69,3 +69,14 @@ LANG=en_US.UTF-8 snap list --all | awk '/disabled/{print $1, $3}' |
 
 ### Unzip
 `7z x archive.7z`
+
+## Alpine
+### Reinstall all apks
+`apk info | xargs sudo apk fix`
+source: https://unix.stackexchange.com/a/619479
+
+### List installedp acks
+`apk info`
+
+### List available packs
+`apk list`
