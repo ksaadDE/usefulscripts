@@ -62,3 +62,10 @@ LANG=en_US.UTF-8 snap list --all | awk '/disabled/{print $1, $3}' |
 `git show`
 ### Show git history
 `git log`
+
+## 7z
+### Max compression
+`7z a archive.7z *.jpg -mx9`
+
+### Unzip
+`7z x archive.7z`
