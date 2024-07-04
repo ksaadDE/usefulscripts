@@ -15,7 +15,12 @@ mntPath="/mnt/$raidName"           # /mnt/mdX
 while [ ! -b /dev/md0 ]; do /sbin/mdadm --assemble --scan --verbose &> /dev/kmsg; sleep 30; done
 
 # luksOpen (decrypt) using /root/luks.key from /dev/mdX (mdadm raid) to /dev/mapper/mdX (decrypted lukspart)
-cryptsetup luksOpen "$devPath" --key-file "$keyfile" "$deviceName" &> /dev/kmsg
+cryptsetup luksOpen "$devPath" --key-file "$keyfile" "$raidName" &> /dev/kmsg
+
+if [ ! -b "$mapperPath" ]; then
+	echo "[-] ERROR: can't find $mapperPath ... ABORTING raid startup" &> /dev/kmsg;
+	exit;
+fi
 
 # creating /mnt/mdX if not existing
 if [ ! -d "$mntPath" ]; then
