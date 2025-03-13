@@ -10,11 +10,24 @@ e.g. ~2 GB parts
 ## exports git commit list (all) into a csv format
 - `git log --pretty=format:'"%h","%an","%ad","%s"' --date-order --date=format:'%d.%m.%Y %H:%M:%S' > allCommits.csv`
 
-## Flatten PDFs
+## Flatten & Compress PDFs
+### MAGICK
 - `convert -density 300 "in.pdf" "out.pdf"`
 - `convert -density 120x120 -quality 20 -compress jpeg <in> <out>`
+### GhostScript
 - `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf`
+### QPDF
+- `qpdf --compress-streams=y --object-streams=generate --recompress-flate --compression-level=9 INPUT.pdf OUTPUT.pdf` (1-2 MB savings, rather MEH)
+### OCRMYPDF
+- `ocrmypdf --output-type pdf --optimize 3 INPUT.pdf ocrmypdf.pdf --force-ocr` (flattens the PDF + compression)
+- `ocrmypdf --output-type pdf --optimize 3 INPUT.pdf ocrmypdf.pdf --redo-ocr` (...)
+- `ocrmypdf --output-type pdf --optimize 3 ocrmypdf.pdf ocrmypdf.pdf --skip-text` (skips the text, quite fast)
 
+### install of ocrmypdf
+```
+pacman -S ocrmypdf jbig2enc tesseract-ocr-deu tesseract-ocr-eng
+```
+ 
 ## Docx -> PDF
 - `soffice --headless --convert-to pdf docx/* pdf/`
 
