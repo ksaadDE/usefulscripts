@@ -48,3 +48,8 @@ A bit later (downwards) in the logs we should see that this gpu is actually load
 ## Sources
 - https://rocm.docs.amd.com/en/latest/conceptual/gpu-isolation.html
 - https://gitlab.informatik.uni-halle.de/ambcj/ollama/-/blob/d1692fd3e0b4a80ff55ba052b430207134df4714/docs/gpu.md
+
+## NOTE (after posting this)
+As far as I am seeing, perhaps this could be an addition to the well-writtten https://docs.ollama.com/gpu#gpu-selection and https://docs.ollama.com/gpu#gpu-selection-2
+
+I was not able to find it via Search Engines (e.g. Google, StartPage & DuckDuck; prob. because its heavy-loaded with JS templating stuff - SEs being somehow unable to parse that; or due to its ranking). I intentionally looked for that, after posting this, via the docs own search.
