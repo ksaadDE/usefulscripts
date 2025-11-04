@@ -55,4 +55,4 @@ As far as I am seeing, perhaps this could be an addition to the well-writtten ht
 
 I was not able to find it via Search Engines (e.g. Google, StartPage & DuckDuck; prob. because its heavy-loaded with JS templating stuff - SEs being somehow unable to parse that; or due to its ranking). I intentionally looked for that, after posting this, via the docs own search.
 
-It could also be used for testing in automation of these configurations, so it perhaps being a deeper guide for it.
+It could also be used for testing in automation of these configurations, perhaps being a deeper guide for it. Maybe it saves someone time? 
