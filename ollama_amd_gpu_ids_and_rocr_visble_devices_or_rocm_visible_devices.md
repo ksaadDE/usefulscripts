@@ -50,6 +50,9 @@ A bit later (downwards) in the logs we should see that this gpu is actually load
 - https://gitlab.informatik.uni-halle.de/ambcj/ollama/-/blob/d1692fd3e0b4a80ff55ba052b430207134df4714/docs/gpu.md
 
 ## NOTE (after posting this)
+https://github.com/ollama/ollama/issues/12945#issuecomment-3485548593
 As far as I am seeing, perhaps this could be an addition to the well-writtten https://docs.ollama.com/gpu#gpu-selection and https://docs.ollama.com/gpu#gpu-selection-2
 
 I was not able to find it via Search Engines (e.g. Google, StartPage & DuckDuck; prob. because its heavy-loaded with JS templating stuff - SEs being somehow unable to parse that; or due to its ranking). I intentionally looked for that, after posting this, via the docs own search.
+
+It could also be used for testing in automation of these configurations, so it perhaps being a deeper guide for it.
