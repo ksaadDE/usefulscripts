@@ -37,7 +37,7 @@ I just came across interesting claims in the issues Tab of Wekan Snap and tried 
 During some NLP information extraction I wanted to get rid of the abbreviations. I came across Scispacy but the installation fails.. https://github.com/allenai/scispacy/issues/504 - Surrender? Nah, no problem for me, I just had to rip that Abbreviation piece out and use it in my project.
 - [adding_abbreviation_detection_to_your_spacy_nlp_project.md](adding_abbreviation_detection_to_your_spacy_nlp_project.md)
 
-# Download Cloudflare Stream Video 
+### Download Cloudflare Stream Video 
 Works when the video is embedded with iframe!
 
 1. Get the video's m3u8 and open it in a text editor, copy the fname located in there, depending on th resolution you need
@@ -49,7 +49,7 @@ https://customer-<CustomerID>.cloudflarestream.com/<VideoId>/manifest/video.m3u8
 ffmpeg -i "https://customer-<CustomerID>.cloudflarestream.com/<VideoId>/manifest/<fname>.m3u8?useMezzanine=true" -c copy -bsf:a aac_adtstoasc live.mp4
 ```
 
-# authentik + nextcloud
+### authentik + nextcloud
 How to configure Authentik and Nextcloud to work with each other and allow user authentication and authorization?
 https://github.com/goauthentik/authentik/discussions/9737#discussioncomment-12419903
 
