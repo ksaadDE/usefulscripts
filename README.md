@@ -1,5 +1,6 @@
 # Useful Scripts & Notes
 This repository contains some funny scripts. I write them all the time, they make my daily tasks very easy. Further I am taking some notes on things that I came across. Despite I use some scripts only once, you may have a good day when you can use a out of the box solution ;)
+Keep in mind: this is public stuff only. I have a lot of projects and experiences that I do not publish.
 
 ### Github Repo Downloader
 Download all your repos from Github, while maintaining the original datetimes (upload, edit etc).
