@@ -44,14 +44,13 @@ Works when the video is embedded with iframe!
 ```
 https://customer-<CustomerID>.cloudflarestream.com/<VideoId>/manifest/video.m3u8
 ```
+2. Put the copied fname in at the `<fname>` location and save it to `live.mp4` via `ffmpeg`
+```
+ffmpeg -i "https://customer-<CustomerID>.cloudflarestream.com/<VideoId>/manifest/<fname>.m3u8?useMezzanine=true" -c copy -bsf:a aac_adtstoasc live.mp4
+```
 
 # authentik + nextcloud
 How to configure Authentik and Nextcloud to work with each other and allow user authentication and authorization?
 https://github.com/goauthentik/authentik/discussions/9737#discussioncomment-12419903
 
 
-
-2. Put the copied fname in at the `<fname>` location and save it to `live.mp4` via `ffmpeg`
-```
-ffmpeg -i "https://customer-<CustomerID>.cloudflarestream.com/<VideoId>/manifest/<fname>.m3u8?useMezzanine=true" -c copy -bsf:a aac_adtstoasc live.mp4
-```
